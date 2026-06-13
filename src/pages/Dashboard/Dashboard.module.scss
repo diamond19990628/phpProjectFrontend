@@ -1,0 +1,51 @@
+.main {
+  min-height: 100vh;
+  padding: 72px 8%;
+  background: #f7f9fc;
+}
+
+.title {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 36px;
+}
+
+.summary {
+  max-width: 900px;
+  margin: 0 auto 36px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.summaryCard {
+  padding: 24px;
+  background: white;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.summaryCard strong {
+  display: block;
+  font-size: 32px;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.summaryCard span {
+  color: #6b7280;
+}
+
+.list {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .summary {
+    grid-template-columns: 1fr;
+  }
+}

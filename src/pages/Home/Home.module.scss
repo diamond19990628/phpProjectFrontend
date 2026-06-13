@@ -1,0 +1,144 @@
+.main {
+  background: #f7f9fc;
+}
+
+.hero {
+  min-height: 520px;
+  padding: 80px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  background: linear-gradient(135deg, #eff6ff, #ffffff);
+}
+
+.heroText {
+  flex: 1;
+}
+
+.tag {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 14px;
+  background: #dbeafe;
+  color: #2563eb;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #6b7280;
+  max-width: 620px;
+}
+
+.buttons {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.primary,
+.secondary {
+  padding: 14px 26px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.heroCard {
+  width: 360px;
+  padding: 28px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(37, 99, 235, 0.18);
+}
+
+.cardTitle {
+  margin-bottom: 18px;
+}
+
+.appointment {
+  padding: 16px;
+  margin-top: 14px;
+  background: #f3f4f6;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  padding: 80px 8%;
+  background: white;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 44px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.featureCard {
+  padding: 28px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.featureCard h3 {
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+.featureCard p {
+  color: #6b7280;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
+
+  .heroCard {
+    width: 100%;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+}

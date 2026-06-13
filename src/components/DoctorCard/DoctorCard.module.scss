@@ -1,0 +1,57 @@
+.card {
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.department {
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.score {
+  display: block;
+  color: #f59e0b;
+  margin-bottom: 18px;
+}
+
+.button {
+  padding: 10px 22px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #1d4ed8;
+}
